@@ -39,7 +39,7 @@ function formatDate(date) {
 }
 
 function displayWeather(data) {
-  let temperature = Math.round(data.temperature?.current);
+  let temperature = Math.round(data.temperature.current);
   let city = data.city;
   let country = data.country;
   let formattedDate = formatDate(new Date(data.time * 1000));
@@ -88,6 +88,7 @@ function displayWeather(data) {
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", function (event) {
   search(event);
+  searchCity("Groningen");
 });
 
 let currentDateElement = document.querySelector("#current-date");
