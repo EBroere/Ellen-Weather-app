@@ -174,3 +174,71 @@ footer {
 .footer-emoji {
   color: initial;
 }
+
+@media only screen and (max-width: 600px) {
+  /* CSS adjustments for smaller screens */
+  .weather-app {
+    max-width: 100%; /* Adjust width for smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .search-button {
+    width: 25%;
+    padding: 15px;
+    font-size: 10px;
+  }
+
+  .search-input {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .search-input::placeholder {
+    font-size: 10px;
+  }
+
+  .current-temperature-icon {
+    display: ;
+  }
+
+  .current-details {
+    font-size: 10px;
+  }
+
+  .forecast-sentence {
+    font-size: 10px;
+  }
+
+  .current-weather {
+    flex-direction: column;
+  }
+
+  .current-city {
+    order: 1;
+  }
+
+  .current-temperature {
+    order: 2;
+  }
+
+  .weather-info {
+    order: 3;
+  }
+
+  .weather-forecast {
+    width: -20px;
+  }
+
+  .weather-forecast-icon {
+  }
+
+  .weather-forecast-date {
+    font-size: 10px;
+  }
+
+  .weather-forecast-temperatures {
+    font-size: 10px;
+  }
+
+  /* Adjust other styles as needed */
+}
