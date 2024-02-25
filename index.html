@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>My weather application</title>
   </head>
   <body>
@@ -40,10 +42,10 @@
 
             <p class="current-details">
               <span id="current-date"></span>,
-              <span id="current-condition"><strong>moderate rain</strong></span>
+              <span id="current-condition"><strong> </strong></span>
               <br />
-              Humidity: <strong class="current-humidity">84%</strong>, Wind:
-              <strong class="current-wind">5.6km/h</strong>
+              Humidity: <strong class="current-humidity"></strong>, Wind:
+              <strong class="current-wind"></strong>
             </p>
           </div>
           <div class="current-temperature">
@@ -56,7 +58,10 @@
             <span class="current-temperature-unit">°C</span>
           </div>
         </div>
-        <div class="weather-forecast" id="forecast">Forecast:</div>
+        <p class="forecast-sentence">
+          Here is the weather forecast for the next few days:
+        </p>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
     </div>
     <footer>
