@@ -197,13 +197,8 @@ footer {
     font-size: 10px;
   }
 
-  .current-temperature-icon {
-    width: 20px;
-    height: 20px;
-  }
-
   .current-temperature-value {
-    font-size: 50px;
+    font-size: 38px;
   }
 
   .current-details {
@@ -219,11 +214,12 @@ footer {
   }
 
   .current-city {
-    order: 1;
+    order: 2;
   }
 
   .current-temperature {
-    order: 2;
+    order: 1;
+    align-items: center;
   }
 
   .weather-info {
