@@ -1,7 +1,7 @@
 body {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -129,7 +129,12 @@ main {
   top: 10px;
 }
 
+h2 {
+  color: rgba(39, 33, 66, 0.4);
+}
+
 .weather-forecast {
+  color: rgba(39, 33, 66, 0.4);
   display: flex;
   justify-content: space-around;
   margin-top: 50px;

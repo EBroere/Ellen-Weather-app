@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>My weather application</title>
   </head>
   <body>
     <div class="video-background">
       <video autoplay muted loop>
-        <source src="Video/mountains.mp4" type="video/mp4">
+        <source src="Video/mountains.mp4" type="video/mp4" />
       </video>
     </div>
-
 
     <div class="weather-app">
       <header>
@@ -32,50 +34,52 @@
         </form>
       </header>
       <main>
-      <div class="current-weather">
+        <div class="current-weather">
           <div>
-            <h1 class="current-city" id="current-city"> </h1>
-      
+            <h1 class="current-city" id="current-city"></h1>
 
-          <p class="current-details">
-  <span id="current-date"></span>,
-  <span id="current-condition"><strong>moderate rain</strong></span> <br />
-  Humidity: <strong class="current-humidity">84%</strong>, Wind:
-  <strong class="current-wind">5.6km/h</strong>
-</p>
-
-
-
+            <p class="current-details">
+              <span id="current-date"></span>,
+              <span id="current-condition"><strong>moderate rain</strong></span>
+              <br />
+              Humidity: <strong class="current-humidity">84%</strong>, Wind:
+              <strong class="current-wind">5.6km/h</strong>
+            </p>
           </div>
           <div class="current-temperature">
-            <span id="icon"> <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/690/original/broken-clouds-day_%281%29.png?1707054425">
+            <span id="icon">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/690/original/broken-clouds-day_%281%29.png?1707054425"
+              />
             </span>
             <span class="current-temperature-value"> </span>
             <span class="current-temperature-unit">°C</span>
-          </div> 
-
-         
           </div>
-           <div class="weather-forecast" id="forecast"></div>
         </div>
-        </div>
-
+        <div class="weather-forecast" id="forecast">Forecast:</div>
       </main>
-      <footer>
-        <p>
-          This project was coded by
-          <a
-            href="https://www.linkedin.com/in/ellen-broere-bb025386/"
-            target="_blank"
-            >Ellen Broere</a
-          >
-          <span class="footer-emoji">🧍🏽‍♀️ </span>
-          and is on
-          <a href="https://www.github.com/EBroere/Ellen-Weather-app.git" target="_blank">GitHub</a> and hosted on
-          <a href="https://ellenbroere-weather-app.netlify.app/" target="_blank">Netlify</a>
-        </p>
-      </footer>
     </div>
+    <footer>
+      <p>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/ellen-broere-bb025386/"
+          target="_blank"
+          >Ellen Broere</a
+        >
+        <span class="footer-emoji">🧍🏽‍♀️ </span>
+        and is on
+        <a
+          href="https://www.github.com/EBroere/Ellen-Weather-app.git"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://ellenbroere-weather-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </p>
+    </footer>
   </body>
   <script src="src/index.js"></script>
 </html>
