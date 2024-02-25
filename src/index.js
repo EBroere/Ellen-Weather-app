@@ -89,10 +89,10 @@ function displayWeather(data) {
   <br /> 
   Condition: <span class="current-condition">${conditionDescription}</span>,
   <br />
-  <span>Coordinates: lat. <strong>${latitude}</strong>, long. <strong>${longitude}</strong></span>,
-  <br />
   Humidity: <strong>${humidity}%</strong>, Wind: <strong>${windSpeed}km/h</strong>, <br />
-  Feels Like: <strong>${feelsLike}°C</strong>, Pressure: <strong>${pressure} hPa</strong>, <br />`;
+  Feels Like: <strong>${feelsLike}°C</strong>, Pressure: <strong>${pressure} hPa</strong>, <br />
+  <span>Coordinates: lat. <strong>${latitude}</strong>, long. <strong>${longitude}</strong></span>.
+  <br />`;
 
   getForecast(data.city);
 }
